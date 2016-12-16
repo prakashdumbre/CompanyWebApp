@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  context-path: /
+  address: 127.0.0.1
+
+cxf: 
+  jaxrs:
+    component-scan: true
+    classes-scan-packages: com.service
+  path: /api
+  
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp
